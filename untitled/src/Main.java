@@ -5,6 +5,8 @@ public class Main {
 
         Random random = new Random();
         Player player = new Player();
+        player.setName("");
+        player.setName(null);
 
         int botNumber = 0;
         int playerNumber = 0;
