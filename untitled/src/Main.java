@@ -5,8 +5,10 @@ public class Main {
 
         Random random = new Random();
         Player player = new Player();
+
         player.setName("");
-        player.setName(null);
+        System.out.println(player.getName());
+
 
         int botNumber = 0;
         int playerNumber = 0;
@@ -26,5 +28,6 @@ public class Main {
                 System.out.println("You lose :(\nCorrect number is: " + botNumber);
             }
         }while(botNumber != playerNumber);
+        System.out.println("Finish of work");
     }
 }
